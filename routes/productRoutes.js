@@ -23,8 +23,8 @@ const router = express.Router();
 //routes
 router.post(
   "/create-product",
-  requireSignIn,
-  isAdmin,
+  //requireSignIn,
+  //isAdmin,
   formidable(),
   createProductController
 );
